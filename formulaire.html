@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>formulaire TD</title>
+        <link rel="stylesheet" href="form.css">
     </head>
     <body>
         <main>
@@ -10,7 +11,7 @@
                 <form action="test.html" method="POST">
 
                     
-                    <h2>Renseignements</h2>
+                    <h2 class="intro">Renseignements</h2>
 
                     <fieldset>
                                 <!-- civilité-->
@@ -18,7 +19,7 @@
                         <legend>Civilité</legend>
                     
                         <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom">
+                        <input type="text" name="nom" id="nom" autofocus required>
                     
                         <label for="prenom">Prénom</label>
                         <input type="text" name="prenom" id="prenom">
