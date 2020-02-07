@@ -11,7 +11,7 @@
                 <form action="test.html" method="POST">
 
                     
-                    <h2 class="intro">Renseignements</h2>
+                    <h2>Renseignements</h2>
 
                     <fieldset>
                                 <!-- civilité-->
@@ -19,12 +19,12 @@
                         <legend>Civilité</legend>
                     
                         <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom" autofocus required>
+                        <input type="text" name="nom" id="nom" autofocus required placeholder="votre Nom">
                     
                         <label for="prenom">Prénom</label>
-                        <input type="text" name="prenom" id="prenom">
+                        <input type="text" name="prenom" id="prenom" placeholder="votre Prénom">
                         <label for="datenaiss">Date de Naissance</label>
-                        <input type="date" name="date" id="name">
+                        <input type="date" name="date" id="name" placeholder="ex:07/01/1985">
                     
                         <label for="email">Adresse E-mail</label>
                         <input type="email" name="email" id="email">
@@ -51,7 +51,7 @@
                     <fieldset>
                         <legend>Formation</legend>
                             <label for="dernier diplome">Dernier diplome</label>
-                                <select name="derneir diplome" id="dernier diplome">
+                                <select name="derneir diplome" id="dernier diplome" class="formation">
                                    <option value="aucun">aucun</option>
                                    <option value="BAc">Bac</option>
                                    <option value="Bac +1">Bac +1</option>
@@ -68,10 +68,10 @@
 
                             <!-- boutton centre interet-->
 
-                                <input type="checkbox" name="checkbox" id="musique">
+                                <input type="checkbox" name="checkbox" id="musique"><br>
                                 <label for="musique">musique</label>
 
-                                <input type="checkbox" name="checkbox" id="sport">
+                                <input type="checkbox" name="checkbox" id="sport"><br>
                                 <label for="sport">sport</label>
                                 <input type="checkbox" name="checkbox" id="lecture">
                                 <label for="lecture">lecture</label> <br>
@@ -86,7 +86,7 @@
                                             <input type="checkbox" name="confirmation" id="confirmation">
                                             <label for="j'accepte"> <small> j'accepte les conditions et la politique d'utilisation</small></label>
                                         </p>
-                                        <input type="submit" value="envoyé">
+                                        <input type="submit" value="envoyé" class="bouton">
 
 
 
